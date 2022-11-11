@@ -40,7 +40,7 @@ public class BitwiseOprator {
 			System.out.println(3^10);	//9
 			
 		
-			//4-4, NAT (~)
+			//4-4, NOT (~)
 			System.out.println(~3);		//-4
 		
 			System.out.println(~10);	//-11
