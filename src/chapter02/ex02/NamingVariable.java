@@ -45,10 +45,6 @@ public class NamingVariable {
 		final int MY_DATA = 10;
 		final float my_Data;	// 권고 사항 위배
 		
-		
-		
-		
-		
 
 	}
 
