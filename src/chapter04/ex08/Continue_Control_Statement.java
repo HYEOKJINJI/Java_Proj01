@@ -29,7 +29,7 @@ public class Continue_Control_Statement {
 		System.out.println();
 		System.out.println("==================");
 		
-		// 2. 다중 loop 문에서 continue 
+		// 2. 다중 loop 문에서 continue h
 			// 2-1 단일 단계만 적용
 		for (int i=0; i<5; i++) {
 			for (int j=0; j<5; j++) {
