@@ -19,6 +19,63 @@ public class Ex02 {//
 		   1. for 문으로 출력, 2. Enhanced For, 3. Arrays.toString()
 		 */
 
+		int[][] arr1 = new int[4][100];
+		for (int i = 0; i < arr1.length; i++) {
+			if (i==0) {
+				for (int j=0, a=1; j < arr1[i].length; a++) {
+					if (a%2==0) {
+						arr1[i][j] =a;
+						j++;
+					}
+				}
+			}else if (i == 1) {
+				for (int j=0, a=1; j < arr1[i].length; a++) {
+					if (a%5==0) {
+						arr1[i][j] = a;
+						j++;
+					}
+				}
+			}else if (i == 2) {
+				for (int j=0, a=1; j<arr1[i].length; a++) {
+					if (a%3==0 || a%8==0) {
+						arr1[i][j] = a;
+						j++;
+					}
+				}
+			}else if (i == 3) {
+				for (int j=0, a=1; j < arr1[i].length; a++) {
+					if (a%7==0) {
+						continue;
+					}
+					arr1[i][j] = a;
+					j++;
+				}
+			}
+			
+			
+		}
+		System.out.println("for 문 출력=======================");
+		for (int i = 0; i < arr1.length; i++) {
+			for (int j = 0; j < arr1[i].length; j++) {
+				System.out.print(arr1[i][j]+ " ");
+			}
+			
+			System.out.println();
+		}
+		System.out.println("Enhanced For 문 출력 ==================");
+		for(int[] arr2 : arr1) {
+			for (int k : arr2) {
+				System.out.print(k + " ");
+				
+			}
+			System.out.println();
+		}
+		System.out.println("Arrays.toString() 문 출력=================");
+		for (int[] arr2 : arr1) {
+			System.out.println(Arrays.toString(arr2));
+		}
+		
+		
 		
 	}		
 }
