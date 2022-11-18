@@ -41,6 +41,7 @@ args : 홍길동 70 88 77 99  이순신 80 68 87 79  김똘똘 60 86 87 30  홍�
 		double avg8=0.0;
 		
 		
+		
 		int sum1=0;
 		int sum2=0;
 		int sum3=0;
@@ -49,6 +50,7 @@ args : 홍길동 70 88 77 99  이순신 80 68 87 79  김똘똘 60 86 87 30  홍�
 		int sum6=0;
 		int sum7=0;
 		int sum8=0;
+		
 		for (int i = 1; i < args.length; i++) {
 			if (i < 5) {
 				sum1+=Integer.parseInt(args[i]);
@@ -100,6 +102,10 @@ args : 홍길동 70 88 77 99  이순신 80 68 87 79  김똘똘 60 86 87 30  홍�
 			}
 		}
 		
+		int sum9=sum1+sum2+sum3+sum4;
+		double sum10 = avg1 + avg2 + avg3 + avg4;
+		double avg10 = sum9 / 4.0;
+		double avg9= sum10 / 4.0;
 		
 		
 		
@@ -112,8 +118,8 @@ args : 홍길동 70 88 77 99  이순신 80 68 87 79  김똘똘 60 86 87 30  홍�
 		System.out.println(c +"\t"+ args[11] +"\t"+ args[12] + "\t" + args[13] + "\t" + args [14] + "\t" + sum3 + "\t" + avg3);
 		System.out.println(d +"\t"+ args[16] +"\t"+ args[17] + "\t" + args[18] + "\t" + args [19] + "\t" + sum4 + "\t" + avg4);
 		System.out.println("===================================================");
-		System.out.println("<합계>\t" + sum5 + "\t" + sum6 + "\t" + sum7 + "\t" + sum8 );
-		System.out.println("<평균>\t" + avg5 + "\t" + avg6 + "\t" + avg7 + "\t" + avg8 );
+		System.out.println("<합계>\t" + sum5 + "\t" + sum6 + "\t" + sum7 + "\t" + sum8 +"\t"+ sum9 + "\t" + sum10);
+		System.out.printf("<평균>\t" + avg5 + "\t" + avg6 + "\t" + avg7 + "\t" + avg8 + "\t"+ avg10 + "\t" + avg9 );
 		
 		
 		
