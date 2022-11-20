@@ -11,7 +11,7 @@ public class PlusOperatorOfString {
 		System.out.println(str1);
 		
 		String str2 = "반갑";
-		str2 += "습닌다";		// str2 = str2 + "습니다" 
+		str2 +="습닌다";		// str2 = str2 + "습니다" 
 		str2 += "!";		// str2 = str2 + " ! " 
 		System.out.println(str2);
 		

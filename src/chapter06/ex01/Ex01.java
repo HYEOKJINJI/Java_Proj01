@@ -15,9 +15,11 @@ class Man{
 		// 1 ~ 100 까지 2의 배수를 출력하고 더한값을 출력
 		int sum = 0;
 		System.out.println("void1 입니다");
-		for (int i = 2; i < 101; i+=2) {
-				System.out.print(i + " ");
-				sum = i + sum;
+		for (int i = 1; i < 101; i++) {
+				if(i%2==0) {
+					System.out.print(i + " ");
+					sum = i +sum;
+				}
 		}
 		System.out.println();
 		
