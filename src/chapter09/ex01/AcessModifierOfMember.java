@@ -11,6 +11,7 @@ public class AcessModifierOfMember {
 		 	default	  : 같은 패키지에서만 접근 가능 <<접근 제어자가 없는 경우>>
 		 	private	  : 같은 파일에서만 접근 가능
 		 */
+		
 
 	}
 

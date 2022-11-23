@@ -8,8 +8,7 @@ public class Student {		// public : 필드, 메소드, 생성자 이름앞에 �
 	public int stuYear;
 	public String stuAdd;
 	
-	public Student(){	
-	}
+	public Student(){}
 	
 	public Student (String stuName, String stuNo, int stuYear, String stuAdd){
 		this.stuName = stuName;
