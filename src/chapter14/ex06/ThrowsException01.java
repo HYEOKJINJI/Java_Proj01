@@ -16,7 +16,7 @@ class A {
 		try {			// 쓰레드를 1초뒤에 잠재워라, 일반 예외 - 1. 직접 처리
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			e.printStackTrace()	;
 		}		
 	}
 }
